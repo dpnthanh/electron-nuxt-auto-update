@@ -1,6 +1,6 @@
 {
   "name": "electron-nuxt-auto-update",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Electron with nuxt auto update",
   "main": "main.js",
   "scripts": {
