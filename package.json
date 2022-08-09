@@ -1,0 +1,22 @@
+{
+  "name": "electron-nuxt-auto-update",
+  "version": "0.0.1",
+  "description": "Electron with nuxt auto update",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpnthanh/electron-nuxt-auto-update.git"
+  },
+  "author": "dpnthanh@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpnthanh/electron-nuxt-auto-update/issues"
+  },
+  "homepage": "https://github.com/dpnthanh/electron-nuxt-auto-update#readme",
+  "devDependencies": {
+    "electron": "^20.0.1"
+  }
+}
