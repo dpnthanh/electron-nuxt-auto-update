@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/mac/.nvm/versions/node/v16.13.1/bin/node /Users/mac/.nvm/versions/node/v16.13.1/bin/yarn add electron-autoupdater
+
+PATH: 
+  /Users/mac/.nvm/versions/node/v16.13.1/bin:/Users/mac/development/google-cloud-sdk/bin:/Users/mac/.composer/vendor/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin:/Users/mac/Library/Android/sdk/tools:/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/development/mongodb-macos-x86_64-4.4.4/bin:/Users/mac/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/mac/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/mac/.fig/bin:/Users/mac/.local/bin:/Users/mac/development/nvim-osx64/bin:/Users/mac/development/flutter/bin:/Users/mac/.pub-cache/bin:/Users/mac/development/ngrok:/Users/mac/development/development/mongodb-macos-x86_64-4.4.4/bin:/Users/mac/development/driver/geckodriver:/Users/mac/Library/Android/sdk:/Users/mac/go/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/electron-autoupdater: Not found
+      at Request.params.callback [as _callback] (/Users/mac/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/mac/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/mac/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/mac/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "electron-nuxt-auto-update",
+    "version": "0.0.2",
+    "description": "Electron with nuxt auto update",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build:publish": "electron-builder --publish always"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dpnthanh/electron-nuxt-auto-update.git"
+    },
+    "author": "dpnthanh@gmail.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dpnthanh/electron-nuxt-auto-update/issues"
+    },
+    "homepage": "https://github.com/dpnthanh/electron-nuxt-auto-update#readme",
+    "devDependencies": {
+      "electron": "^20.0.1",
+      "electron-builder": "^23.3.3"
+    },
+    "build": {
+      "win": {
+        "publish": ["github"]
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
