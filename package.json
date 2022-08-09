@@ -1,10 +1,11 @@
 {
   "name": "electron-nuxt-auto-update",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Electron with nuxt auto update",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:publish": "electron-builder --win --publish always"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/dpnthanh/electron-nuxt-auto-update#readme",
   "devDependencies": {
-    "electron": "^20.0.1"
+    "electron": "^20.0.1",
+    "electron-builder": "^23.3.3"
+  },
+  "build": {
+    "win": {
+      "publish": ["github"]
+    }
   }
 }
